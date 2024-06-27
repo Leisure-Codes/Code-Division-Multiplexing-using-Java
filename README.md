@@ -1,5 +1,5 @@
 # Code-Division-Multiplexing-using-Java
-Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 5 Signals
+Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 6 Signals
 
 ## Detailed Explanation of the Code
 ### Key Components of the Code:
@@ -16,7 +16,7 @@ For each transmission, calculate the sum of the dot products of the transmission
 If the sum is greater than or equal to 0, the recovered bit is 1; otherwise, it is 0.
 Add the recovered bit to the list of recovered signals.
 
-#### 3}Function to Calculate Dot Product: calculateDotProduct
+#### 3} Function to Calculate Dot Product: calculateDotProduct
 
 Input: Two lists representing sequences.
 Output: The dot product of the two sequences.
