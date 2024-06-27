@@ -1,5 +1,5 @@
 # Code-Division-Multiplexing-using-Java
-Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 6 Signals <br />
+Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 6 Signals. <br />
 
 ## Detailed Explanation of the Code
 ### Key Components of the Code: <br />
