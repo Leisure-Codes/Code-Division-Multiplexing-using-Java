@@ -1,11 +1,11 @@
 # Code-Division-Multiplexing-using-Java
-Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 6 Signals
+Implementing a Code Division Multiplexing Algorithm using Java with Static Input sequence of 6 Signals <br />
 
 ## Detailed Explanation of the Code
-### Key Components of the Code:
+### Key Components of the Code: <br />
 #### **1. Main Class: CDM**
 
-The main class contains the main method, which is the entry point of the program.
+The main class contains the main method, which is the entry point of the program. <br />
 
 
 #### **2. Function to Perform CDM and Recover Signals: recoverSignals**
@@ -16,7 +16,7 @@ The main class contains the main method, which is the entry point of the program
 
 * Logic: For each transmission, calculate the sum of the dot products of the transmission with each chip sequence.
 If the sum is greater than or equal to 0, the recovered bit is 1; otherwise, it is 0.
-Add the recovered bit to the list of recovered signals.
+Add the recovered bit to the list of recovered signals. <br />
 
 
 #### **3. Function to Calculate Dot Product: calculateDotProduct**
@@ -25,7 +25,7 @@ Add the recovered bit to the list of recovered signals.
 
 * Output: The dot product of the two sequences.
 
-* Logic: Iterate through the elements of the sequences, multiplying corresponding elements and summing the results.
+* Logic: Iterate through the elements of the sequences, multiplying corresponding elements and summing the results. <br />
 
 
 #### **4. Main Method: main**
@@ -36,7 +36,7 @@ Add the recovered bit to the list of recovered signals.
 
 * Recover Signals: Call the recoverSignals function with the chip sequences and transmissions.
 
-* Print Recovered Signals: Print the recovered signals to the console.
+* Print Recovered Signals: Print the recovered signals to the console. <br />
 
 
 #### **5. Input Code**
