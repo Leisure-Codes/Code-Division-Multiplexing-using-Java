@@ -10,33 +10,33 @@ The main class contains the main method, which is the entry point of the program
 
 #### **2. Function to Perform CDM and Recover Signals: recoverSignals**
 
-*Input: A list of chip sequences and a list of transmissions.
+* Input: A list of chip sequences and a list of transmissions.
 
-*Output: A list of recovered signals.
+* Output: A list of recovered signals.
 
-*Logic: For each transmission, calculate the sum of the dot products of the transmission with each chip sequence.
+* Logic: For each transmission, calculate the sum of the dot products of the transmission with each chip sequence.
 If the sum is greater than or equal to 0, the recovered bit is 1; otherwise, it is 0.
 Add the recovered bit to the list of recovered signals.
 
 
 #### **3. Function to Calculate Dot Product: calculateDotProduct**
 
-*Input: Two lists representing sequences.
+* Input: Two lists representing sequences.
 
-*Output: The dot product of the two sequences.
+* Output: The dot product of the two sequences.
 
-*Logic: Iterate through the elements of the sequences, multiplying corresponding elements and summing the results.
+* Logic: Iterate through the elements of the sequences, multiplying corresponding elements and summing the results.
 
 
 #### **4. Main Method: main**
 
-*Define Chip Sequences: Four chip sequences representing four stations (A, B, C, D).
+* Define Chip Sequences: Four chip sequences representing four stations (A, B, C, D).
 
-*Define Transmissions: Six transmissions (S1 to S6) to be processed.
+* Define Transmissions: Six transmissions (S1 to S6) to be processed.
 
-*Recover Signals: Call the recoverSignals function with the chip sequences and transmissions.
+* Recover Signals: Call the recoverSignals function with the chip sequences and transmissions.
 
-*Print Recovered Signals: Print the recovered signals to the console.
+* Print Recovered Signals: Print the recovered signals to the console.
 
 
 #### **5. Input Code**
